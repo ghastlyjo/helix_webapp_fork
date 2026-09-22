@@ -27,14 +27,4 @@ id = "7cab3536b72140dc877576503e0e9f86"
 
 [vars]
 APP_NAME = "HelixNotes Cloud"
-{
-  // ...
-  "observability": {
-    "logs": {
-      "enabled": true,
-      "invocation_logs": true,
-      "persist": true
-    }
-  },
-  // ...
-}
+
