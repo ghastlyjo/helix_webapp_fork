@@ -1,4 +1,4 @@
-name = "helixnotes-web"
+name ='helix-webapp-fork'
 main = "src/worker.ts"
 compatibility_date = "2026-09-01"
 compatibility_flags = ["nodejs_compat"]
