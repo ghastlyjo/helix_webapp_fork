@@ -18,12 +18,12 @@ bucket_name = "helixnotes-vault"
 [[d1_databases]]
 binding = "DB"
 database_name = "helixnotes-db"
-database_id = "PUT_YOUR_D1_ID_HERE" # بتجيبه بعد wrangler d1 create
+database_id = "0ce3a10f-f265-404d-872c-f0ce11776417" # بتجيبه بعد wrangler d1 create
 
 # 3. KV = إعداداتك الخاصة (ثيم، خط، scale)
 [[kv_namespaces]]
 binding = "SETTINGS"
-id = "PUT_YOUR_KV_ID_HERE"
+id = "7cab3536b72140dc877576503e0e9f86"
 
 [vars]
 APP_NAME = "HelixNotes Cloud"
