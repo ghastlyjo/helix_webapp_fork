@@ -1,0 +1,29 @@
+name = "helixnotes-web"
+main = "src/worker.ts"
+compatibility_date = "2026-09-01"
+compatibility_flags = ["nodejs_compat"]
+
+# Frontend build output (Vite)
+[assets]
+directory = "./dist"
+not_found_handling = "single-page-application"
+
+# --- Bindings ---
+# 1. R2 = ملفاتك الـ .md بدل القرص المحلي
+[[r2_buckets]]
+binding = "VAULT"
+bucket_name = "helixnotes-vault"
+
+# 2. D1 = البحث والـ index بدل Tantivy
+[[d1_databases]]
+binding = "DB"
+database_name = "helixnotes-db"
+database_id = "PUT_YOUR_D1_ID_HERE" # بتجيبه بعد wrangler d1 create
+
+# 3. KV = إعداداتك الخاصة (ثيم، خط، scale)
+[[kv_namespaces]]
+binding = "SETTINGS"
+id = "PUT_YOUR_KV_ID_HERE"
+
+[vars]
+APP_NAME = "HelixNotes Cloud"

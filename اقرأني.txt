@@ -1,0 +1,15 @@
+اقرأني - كيف ترفع المشروع بدون أوامر
+=====================================
+1. نزل الكود الأصلي:
+   افتح https://gitlab.com/ArkHost/HelixNotes
+   دوس زر Code (أزرق) -> Download ZIP
+
+2. فك الضغط، رح يطلع مجلد اسمه HelixNotes-main
+
+3. انسخ الملفات اللي بهذا المجلد الحالي (wrangler.toml + schema.sql + مجلد src) 
+   وحطهم جوا مجلد HelixNotes-main
+   اذا سألك هل تريد الاستبدال؟ قول نعم لملف src/worker.ts فقط
+
+4. هسا مجلد HelixNotes-main صار جاهز وفيه كلشي
+
+5. ارفعه على GitHub كما في الشرح
