@@ -5,7 +5,7 @@ compatibility_flags = ["nodejs_compat"]
 
 # Frontend build output (Vite)
 [assets]
-directory = "./dist"
+directory = "./build"
 not_found_handling = "single-page-application"
 
 # --- Bindings ---
